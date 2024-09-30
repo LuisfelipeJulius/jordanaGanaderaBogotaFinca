@@ -2,10 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
-    --verde-finca: #C89425; 
+   --verde-finca: #00A650; 
     --amarillo-finca:#FFDD00;
     --texto-finca:#707070;
-}
 
 html,
 body {
