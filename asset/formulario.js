@@ -22,7 +22,7 @@ document.getElementById("miFormulario").addEventListener("submit", function(even
   var fechaRegistro = new Date().toLocaleDateString(); // Obtiene solo la fecha
 
   // Establecer manualmente el valor de origen como "Contegral"
-  var origen = "Contegral";
+  var origen = "Finca";
   
   // Construye el objeto de datos
   var datos = {
@@ -50,7 +50,7 @@ document.getElementById("miFormulario").addEventListener("submit", function(even
     // Oculta el modal
     spinnerModal.hide();
     // Redirige a la siguiente URL
-    window.top.location.href  = 'https://www.contegral.co/registro-exitoso';
+    window.top.location.href  = 'https://www.finca.co/registro-exitoso';
   })
   .catch(function(error) {
     // Oculta el modal
